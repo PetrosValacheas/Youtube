@@ -14,24 +14,33 @@ function Header() {
 	return (
 
 		<div className="header">
-			<MenuIcon/>
-			<img
-			className="header_logo"
-				src= "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
-			 	alt=""
-			 />
+			<div className = "header_left">
+				<MenuIcon/>
+				<img
+				className="header_logo"
+					src= "https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg"
+			 		alt=""
+				/>
+			</div>
 
-			 <input type="text" />
-			 <SearchIcon />
-			 <VideoCallIcon />
-			 <AppsIcon />
-			 <NotificationsIcon />
-			 <Avatar
+			<div className="header_input">
 
-			 	alt ="Petros Valacheas"
-			 	src =""
-			 />
+				<input type="text" />
+			 	<SearchIcon />
 
+			</div>
+
+			<div className="header_right" >
+
+			 	<VideoCallIcon />
+				<AppsIcon />
+			 	<NotificationsIcon />
+				<Avatar
+
+			 		alt ="Petros Valacheas"
+			 		src =""
+				/>
+			</div>
 
 		</div>
 
