@@ -25,17 +25,17 @@ function Header() {
 
 			<div className="header_input">
 
-				<input type="text" />
-			 	<SearchIcon />
+				<input placeholder="Search" type="text" />
+			 	<SearchIcon className="header_inputButton" />
 
 			</div>
 
-			<div className="header_right" >
+			<div className="header_icons" >
 
-			 	<VideoCallIcon />
-				<AppsIcon />
-			 	<NotificationsIcon />
-				<Avatar
+			 	<VideoCallIcon className="header_icon" />
+				<AppsIcon className="header_icon"/>
+			 	<NotificationsIcon className="header_icon"/>
+				<Avatar className="header_icon"d
 
 			 		alt ="Petros Valacheas"
 			 		src =""
@@ -43,7 +43,6 @@ function Header() {
 			</div>
 
 		</div>
-
 	)
 }
 
