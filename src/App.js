@@ -15,10 +15,6 @@ function App() {
            <RecommendedVideos />
 
         </div>
-       
-        {/*Header -> <Header />*/}
-        {/*SideBar -> <SideBar />*/}
-        {/*RecommededVideos -> < />*/}
     </div>
   );
 }
