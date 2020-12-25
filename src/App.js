@@ -1,4 +1,5 @@
-
+import React from 'react'
+import Header from './Header'
 import './App.css';
 
 function App() {
@@ -6,9 +7,11 @@ function App() {
     <div className="App">
         <h1>Hello</h1>
 
-        {/*Header*/}
-        {/*SideBar*/}
-        {/*RecommededVideos*/}
+
+        <Header />
+        {/*Header -> <Header />*/}
+        {/*SideBar -> <SideBar />*/}
+        {/*RecommededVideos -> < />*/}
     </div>
   );
 }
