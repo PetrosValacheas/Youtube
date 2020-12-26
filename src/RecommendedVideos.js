@@ -9,7 +9,34 @@ function RecommendedVideos() {
 			<h2>Recommended</h2>
 			<div className="recommendedVideos_videos">
 
-				<VideoCard />
+				<VideoCard 
+
+					title ="Become a web developer!"
+					views="2.3M Views"
+					timestamp="3 days ago"
+					channelImage=""
+					channel="Petros"
+					image=""
+				/>
+
+				<VideoCard 
+
+					title ="Become a web developer!"
+					views="2.3M Views"
+					timestamp="3 days ago"
+					channelImage=""
+					channel="Petros"
+					image=""
+				/>
+				<VideoCard 
+
+					title ="Become a web developer!"
+					views="2.3M Views"
+					timestamp="3 days ago"
+					channelImage=""
+					channel="Petros"
+					image=""
+				/>
 			</div>
 		</div>
 	);
