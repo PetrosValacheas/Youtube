@@ -35,7 +35,7 @@ function Header() {
 			 	<VideoCallIcon className="header_icon" />
 				<AppsIcon className="header_icon"/>
 			 	<NotificationsIcon className="header_icon"/>
-				<Avatar className="header_icon"d
+				<Avatar className="header_icon"
 
 			 		alt ="Petros Valacheas"
 			 		src =""
